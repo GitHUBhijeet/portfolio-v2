@@ -16,7 +16,10 @@ const interFont = Inter({
 
 export const metadata = {
   title: "Abhijeet Gawade",
-  description: "",
+  description: "Get to know me by clicking this link :)",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 // Use a global CSS file or inline styles for server components
