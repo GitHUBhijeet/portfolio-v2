@@ -23,7 +23,7 @@ export const skillsData = [
   "Angular",
   "Flutter",
   "Reactnative",
-  "Nextjslogo",
+  // "Nextjslogo",
   "RxJS",
   "Docker",
   "Postman",

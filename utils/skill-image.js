@@ -90,8 +90,8 @@ export const skillsImage = (skill) => {
       return pandas;
     case "nodejslogo":
       return nodejslogo;
-    case "nextjslogo":
-      return nextjslogo;
+    // case "nextjslogo":
+    //   return nextjslogo;
     case "matplotlib":
       return matplotlib;
     default:
