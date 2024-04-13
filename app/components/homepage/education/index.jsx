@@ -5,7 +5,7 @@ import { educations } from "@/utils/data/educations";
 import { IoSchool } from "react-icons/io5";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
-import lottieFile from "/public/lottie/study.json";
+import lottieFile from "/public/lottie/edu.json";
 
 function Education() {
   return (
