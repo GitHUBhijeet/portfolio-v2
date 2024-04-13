@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Abhijeet",
-  profile: "/ayla.jpg",
+  profile: "/me.jpg",
   designation: "Software. Data. Web.",
   description:
     "Hello! My name is Abhijeet, an NYU graduate with a Master's Degree in Computer Science. I have a passion for Coding and Problem Solving. I love working on anything and everything that involves writing code. I have had the privilege of working at a Dutch MNC that specializes in navigation, India's biggest car manufacturing company and a SaaS startup",
