@@ -1,7 +1,6 @@
 // @flow strict
-import Link from 'next/link';
-import { CgGitFork } from "react-icons/cg";
-import { IoStar } from "react-icons/io5";
+import Link from "next/link";
+import { CgMail } from "react-icons/cg";
 
 function Footer() {
   return (
@@ -12,30 +11,25 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-[#16f2b3]">Abu Said</Link>
+            Built with ❤️ by yours truly{" "}
+            <Link target="_blank" href="/" className="text-[#16f2b3]">
+              ~ Abhijeet
+            </Link>
           </p>
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href="https://github.com/said7388/developer-portfolio"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
+              href="mailto:abhijeet.gawade@nyu.edu"
+              className="flex items-center gap-2 hover:text-[#16f2b3]"
             >
-              <IoStar />
-              <span>Star</span>
-            </Link>
-            <Link
-              target="_blank"
-              href="https://github.com/said7388/developer-portfolio/fork"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
-            >
-              <CgGitFork />
-              <span>Fork</span>
+              <CgMail size={25} />
+              <span>abhijeet.gawade@nyu.edu</span>
             </Link>
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
-};
+}
 
 export default Footer;
