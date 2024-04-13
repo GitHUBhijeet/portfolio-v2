@@ -11,7 +11,7 @@ import java from "/public/svg/skills/java.svg";
 import javascript from "/public/svg/skills/javascript.svg";
 import microsoftoffice from "/public/svg/skills/microsoftoffice.svg";
 import mysql from "/public/svg/skills/mysql.svg";
-import nextjslogo from "/public/svg/skills/nextjs.svg";
+// import nextjslogo from "/public/svg/skills/nextJS.svg";
 import numpy from "/public/svg/skills/numpy.svg";
 import postgresql from "/public/svg/skills/postgresql.svg";
 import python from "/public/svg/skills/python.svg";
