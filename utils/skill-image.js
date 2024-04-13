@@ -11,7 +11,7 @@ import java from "/public/svg/skills/java.svg";
 import javascript from "/public/svg/skills/javascript.svg";
 import microsoftoffice from "/public/svg/skills/microsoftoffice.svg";
 import mysql from "/public/svg/skills/mysql.svg";
-// import nextjslogo from "/public/svg/skills/nextJS.svg";
+import nextjs from "/public/svg/skills/nextJS.svg";
 import numpy from "/public/svg/skills/numpy.svg";
 import postgresql from "/public/svg/skills/postgresql.svg";
 import python from "/public/svg/skills/python.svg";
@@ -27,7 +27,7 @@ import rxjs from "/public/svg/skills/rxjs.svg";
 import reactnative from "/public/svg/skills/reactnative.svg";
 import powerbi from "/public/svg/skills/powerbi.svg";
 import pandas from "/public/svg/skills/pandas.svg";
-import nodejslogo from "/public/svg/skills/nodejs.svg";
+import nodejs from "/public/svg/skills/nodejs.svg";
 import matplotlib from "/public/svg/skills/matplotlib.svg";
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -54,7 +54,7 @@ export const skillsImage = (skill) => {
       return tailwind;
     case "c":
       return c;
-    case "cplusplus":
+    case "c++":
       return cplusplus;
     case "java":
       return java;
@@ -68,8 +68,6 @@ export const skillsImage = (skill) => {
       return numpy;
     case "flutter":
       return flutter;
-    case "microsoftoffice":
-      return microsoftoffice;
     case "postman":
       return postman;
     case "excel":
@@ -82,16 +80,14 @@ export const skillsImage = (skill) => {
       return sas;
     case "rxjs":
       return rxjs;
-    case "reactnative":
-      return reactnative;
-    case "powerbi":
+    case "power bi":
       return powerbi;
     case "pandas":
       return pandas;
-    case "nodejslogo":
-      return nodejslogo;
-    // case "nextjslogo":
-    //   return nextjslogo;
+    case "node.js":
+      return nodejs;
+    case "next.js":
+      return nextjs;
     case "matplotlib":
       return matplotlib;
     default:
